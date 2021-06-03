@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # ENS configuration
-To enable **Ethereum Name System** integration for EDDITS, using [eddits.xyz](eddits.xyz) domain (or use another domain), follow these step:
+To enable **Ethereum Name System** integration for EDDITS, using [eddits.xyz](https://eddits.xyz) domain (or use another domain), follow these step:
 - Register a domain (currently only .xyz, .luxe and .kred are supported by ENS resolvers, other domains should come soon™️).
 - Enable DNSSEC for this domain. Make sure the domain provider you selected supports DNSSEC. This is usually done on your DNS settings dashboard.
 - Add a `TXT` entry in DNS configuration with key `_ens.eddits.xyz` (replace eddits.xyz by the desired domain) and value `a=0x1234` (replace `0x1234` by the wallet to own the domain).
